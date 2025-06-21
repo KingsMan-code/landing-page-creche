@@ -1,0 +1,179 @@
+# ===== DEPENDÊNCIAS =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ===== BUILD E DIST =====
+dist/
+build/
+*.local
+
+# ===== VITE =====
+.vite/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# ===== LOGS =====
+*.log
+logs/
+*.log.*
+
+# ===== CACHE =====
+.cache/
+.parcel-cache/
+.npm/
+.eslintcache
+.stylelintcache
+
+# ===== COVERAGE =====
+coverage/
+*.lcov
+.nyc_output/
+
+# ===== AMBIENTE =====
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ===== EDITOR =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== SISTEMA OPERACIONAL =====
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ===== TEMPORÁRIOS =====
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# ===== BACKUP =====
+*.bak
+*.backup
+*.old
+
+# ===== TESTES =====
+.jest/
+jest.config.js.timestamp-*
+
+# ===== TYPESCRIPT =====
+*.tsbuildinfo
+
+# ===== ESLINT =====
+.eslintcache
+
+# ===== STORYBOOK =====
+storybook-static/
+
+# ===== NEXT.JS (caso migre) =====
+.next/
+out/
+
+# ===== NUXT.JS (caso migre) =====
+.nuxt/
+.output/
+
+# ===== GATSBY (caso migre) =====
+.cache/
+public/
+
+# ===== VERCEL =====
+.vercel
+
+# ===== NETLIFY =====
+.netlify/
+
+# ===== FIREBASE =====
+.firebase/
+firebase-debug.log
+firestore-debug.log
+
+# ===== DOCKER =====
+Dockerfile.local
+docker-compose.override.yml
+
+# ===== ARQUIVOS ESPECÍFICOS DO PROJETO =====
+# Arquivos de configuração local
+config.local.js
+config.local.json
+
+# Uploads temporários
+uploads/
+temp-uploads/
+
+# Arquivos de desenvolvimento
+dev-notes.md
+TODO.md
+NOTES.md
+
+# ===== CERTIFICADOS E CHAVES =====
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# ===== ARQUIVOS GRANDES =====
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# ===== ARQUIVOS DE MÍDIA TEMPORÁRIOS =====
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+
+# ===== BANCO DE DADOS LOCAL =====
+*.db
+*.sqlite
+*.sqlite3
+
+# ===== MONOREPO =====
+.rush/
+.pnp.*
+.yarn/
+
+# ===== MICROFRONTEND =====
+**/dist/
+**/build/
+
+# ===== ANALYTICS =====
+.analytics/
+
+# ===== SENTRY =====
+.sentryclirc
+
+# ===== HUSKY =====
+.husky/_/
+
